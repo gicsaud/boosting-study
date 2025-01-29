@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.logoContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.nomeLoja{
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.descricaoLoja{
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+
+.botoesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 400px;
+    justify-content: center;
+    margin: 0 auto; /* Centraliza o container na página */
+    margin-bottom: 30px;
+}
+
+.botao {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #e0e0e0;
+}
